@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*index*/
+
+.contenedor-fluid {
+    overflow-x: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+.divColor {
+    background-color: red;
+    border: 1px black solid;
+}
+
+.liColor {
+    background-color: grey;
+    border: 1px black solid;
+}
+
+.aColor {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tituloIndex{
+    position: relative;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    left: 50px;
+}
+
+footer {
+    border: 1px black solid;
+    background-color: red;
+    text-align: start;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.parrafoIndex {
+    font-family: 'Cormorant SC', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.h2Main {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.Ropa {
+    width: 600px;
+}
+    
+.fixed {
+    position: fixed;
+    transition: all 0,3;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    border-radius: 30px;
+ }
+
+ .fixed:hover {
+    width: 200px;
+    height: 150px;
+}
+
+ /*estilos de contacto ubicacion*/
+
+ .tituloUbicacion {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.mapa {
+    position: relative;
+    width: 70%;
+    left: 180px;
+}
